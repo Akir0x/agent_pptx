@@ -1,0 +1,78 @@
+{
+  "titulo_apresentacao": "Resultados Q3 - Cliente Exemplo",
+  "slides": [
+    {
+      "molde": "abertura_capa_titulo",
+      "slide_biblioteca": 1,
+      "campos": {
+        "titulo": "Resultados do 3º trimestre",
+        "subtitulo": "Cliente Exemplo",
+        "data_1": "Outubro 2026"
+      },
+      "notas": "Abrir agradecendo a presença do time do cliente."
+    },
+    {
+      "molde": "contexto_titulo_topicos",
+      "slide_biblioteca": 2,
+      "campos": {
+        "titulo": "Como foi o trimestre",
+        "texto_1": [
+          "Vendas cresceram nos três meses",
+          "Novo canal online começou em agosto",
+          "Custos de frete subiram em setembro"
+        ]
+      },
+      "notas": ""
+    },
+    {
+      "molde": "dados_grafico_barras",
+      "slide_biblioteca": 3,
+      "campos": {
+        "titulo": "Vendas por mês (R$ mil)",
+        "grafico_1": {
+          "categorias": ["Jul", "Ago", "Set"],
+          "series": [{"nome": "Vendas", "valores": [120, 135, 142]}]
+        }
+      },
+      "notas": ""
+    },
+    {
+      "molde": "destaque_numero_grande",
+      "slide_biblioteca": 5,
+      "campos": {
+        "numero_1": "+18%",
+        "texto_1": "de crescimento em relação ao trimestre anterior"
+      },
+      "notas": ""
+    },
+    {
+      "molde": "cronograma_timeline_3_etapas",
+      "slide_biblioteca": 4,
+      "campos": {
+        "titulo": "Próximos passos",
+        "item_1_data": "Nov 2026",
+        "item_1_titulo": "Plano de frete",
+        "item_1_texto": "Renegociar contratos com as transportadoras",
+        "item_2_data": "Dez 2026",
+        "item_2_titulo": "Campanha de Natal",
+        "item_2_texto": "Ação no canal online com foco em novos clientes",
+        "item_3_data": "Jan 2027",
+        "item_3_titulo": "Revisão anual",
+        "item_3_texto": "Apresentar o fechamento do ano e as metas de 2027"
+      },
+      "notas": ""
+    },
+    {
+      "molde": "dados_grafico_barras",
+      "slide_biblioteca": 3,
+      "campos": {
+        "titulo": "Pedidos por canal",
+        "grafico_1": {
+          "categorias": ["Loja", "Online", "Telefone"],
+          "series": [{"nome": "Pedidos", "valores": [340, 210, 45]}]
+        }
+      },
+      "notas": "Segundo uso do mesmo molde, para testar que os gráficos ficam independentes."
+    }
+  ]
+}
