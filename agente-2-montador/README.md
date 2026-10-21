@@ -1,8 +1,15 @@
 # Agente 2: Montador (agente final)
 
 Cria apresentações novas reaproveitando os moldes catalogados pelo agente 1.
-O agente do Copilot escolhe os moldes e escreve os textos; o script em Python
-monta o `.pptx` com o design original.
+
+Há duas formas de usar:
+
+| Forma | Quem gera o `.pptx` | Custo |
+| --- | --- | --- |
+| [`copilot-interpretador/`](copilot-interpretador/) | O próprio agente, com o interpretador de código do Copilot Studio | Consome créditos do Copilot |
+| Esta pasta (`instrucoes_agente.md` + `montar_apresentacao.py`) | O agente devolve um JSON e o script em Python monta o arquivo | Sem créditos de IA |
+
+O restante deste README descreve a forma com o script em Python.
 
 ## Arquivos
 
